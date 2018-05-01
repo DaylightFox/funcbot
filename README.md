@@ -45,6 +45,7 @@ To setup the bot, you must do the following:
 
 ### Leaderboard System
 **Note: Leaderboards are on a per server basis**
+
 | Usage | Description |
 | ----- | ----------- |
 | `f.top` | Displays the top 10 contributors of the server |
