@@ -31,10 +31,10 @@ To setup the bot, you must do the following:
 ### Cryptographic Commands
 | Usage | Decription |
 | ----- | ---------- |
-| `f.rot encrypt&#124;decrypt <key> <message...>` | Encrypts/decrypts `message` with `key` using the rot cipher |
-| `f.vigenere encrypt&#124;decrypt <key> <message...>` | Encrypts/decrypts `message` with `key` using the vigenère cipher |
+| `f.rot encrypt\|decrypt <key> <message...>` | Encrypts/decrypts `message` with `key` using the rot cipher |
+| `f.vigenere encrypt\|decrypt <key> <message...>` | Encrypts/decrypts `message` with `key` using the vigenère cipher |
 | `f.xor [-b][-c] <mask> <message...>` | Applies the `mask` to `message` using XOR logic. By default, the comamnd will expect the mask to be binary and message to be characters, and will output in binary. Applying optional parameter `-c` will provide output in ASCII. Applying optional parameter `-b` will expect the message to be in binary format. |
-| `f.railfence encrypt&#124;decrypt <rails> <message...>` | Encrypts/decrypts `message` with `rails` using the railfence cipher |
+| `f.railfence encrypt\|decrypt <rails> <message...>` | Encrypts/decrypts `message` with `rails` using the railfence cipher |
 | `f.inspect <message...>` | Performs frequency analysis on `message` and provides a table ranked from most to least used |
 #### Steganography
 | Usage | Description |
